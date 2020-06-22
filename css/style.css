@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Permanent Marker', cursive;
+	background-color: #FAEBD7;
+}
+h1{
+	text-align: center;
+}
+.container{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	width: 120px;
+	margin: 150px auto;
+}
+.playerInput{
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	cursor: pointer;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}
+.zero{
+	border-top: none;
+	border-left: none;
+}
+.one{
+	border-top: none;
+}
+.two{
+	border-right: none;
+	border-top: none;
+}
+.three{
+	border-left: none;
+}
+
+.five{
+	border-right: none;
+}
+.six{
+	border-left: none;
+	border-bottom: none;
+}
+.seven{
+	border-bottom: none;
+}
+.eight{
+	border-right: none;
+	border-bottom: none;
+}
